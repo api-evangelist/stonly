@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://status.stonly.com/ , https://stonly.com/terms , StonlyHQ SDK release
+  history.
+status_page: https://status.stonly.com/
+versioning:
+  scheme: unknown
+  notes: >-
+    Stonly does not publish a formal public API versioning or deprecation
+    policy. SDKs are versioned with semver (see changelog/stonly-changelog.yml).
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+  notes: No public deprecation / Sunset-header policy located.
+sla:
+  url: https://stonly.com/terms
+  uptime_target: null
+deprecated_operations: []
+notes: >-
+  Operational surface confirmed: a live status page (Statuspage-hosted) at
+  status.stonly.com. No OpenAPI in the repo, so no deprecated operations are
+  derivable.

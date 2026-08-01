@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://stonly.com/kb/en/integrations-api-5468 , StonlyHQ mobile SDKs — Stonly
+  ships embeddable client-side surfaces (widget + native SDK views) rather than
+  server-side SDKs.
+components:
+- family: Widget
+  kind: embedded-web
+  name: Stonly Widget
+  description: >-
+    A JavaScript widget embedded via a loader snippet that surfaces interactive
+    guides, a knowledge-base search, and chat/launcher entry points on any web
+    page. Configured with a widget id and runtime API (StonlyWidget()).
+  loader: JavaScript embed snippet (window.StonlyWidget)
+  docs: https://stonly.com/kb/en/integrations-api-5468
+- family: Embedded Guides
+  kind: embedded-web
+  name: Stonly Embed
+  description: >-
+    Inline embedding of a specific Stonly guide/knowledge base into a page or
+    app via iframe/embed code, for in-context self-service content.
+  docs: https://stonly.com/kb/
+- family: Mobile SDK Views
+  kind: native-mobile
+  name: Stonly Mobile SDK surfaces
+  description: >-
+    Native in-app views rendered by the iOS, Android and React Native SDKs to
+    present interactive guides and onboarding flows inside mobile apps.
+  loader: stonly-ios-sdk / stonly-android-sdk / stonly-react-native
+  docs: https://github.com/StonlyHQ
+notes: >-
+  These are client-side/embeddable UI surfaces, distinct from server-side SDKs.
+  The mobile SDK binaries are catalogued in packages/stonly-packages.yml.

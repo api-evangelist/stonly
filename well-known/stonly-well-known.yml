@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/* on Stonly hosts
+host: https://stonly.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+additional_hosts:
+- host: https://api.stonly.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+notes: >-
+  No /.well-known discovery documents are published on stonly.com or
+  api.stonly.com as of the probe date. Recorded as valid negative data; no
+  WellKnown/SecurityTxt pointer is wired because nothing returned 200.

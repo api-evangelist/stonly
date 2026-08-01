@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://registry.npmjs.org/stonly-react-native — release timeline of the
+  first-party React Native SDK (npm). Stonly publishes no single dated product
+  changelog page; this captures the public SDK release history.
+scheme: semver
+component: stonly-react-native (React Native SDK)
+current_version: 1.0.8
+entries:
+- version: 1.0.8
+  date: '2026-06-15'
+  type: additions
+- version: 1.0.7
+  date: '2025-10-08'
+  type: additions
+- version: 1.0.6
+  date: '2025-10-08'
+  type: additions
+- version: 1.0.5
+  date: '2025-10-08'
+  type: additions
+- version: 1.0.4
+  date: '2025-06-25'
+  type: additions
+- version: 1.0.3
+  date: '2025-03-03'
+  type: additions
+- version: 1.0.2
+  date: '2024-12-19'
+  type: additions
+- version: 1.0.1
+  date: '2024-10-10'
+  type: additions
+notes: >-
+  Release dates and versions are read verbatim from the npm registry "time"
+  metadata. Per-version highlights are not published by the vendor, so only
+  version/date are recorded (no fabricated change notes).

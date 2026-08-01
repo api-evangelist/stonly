@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.stonly.com/
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: SOC 2 listed on trust.stonly.com
+- id: hipaa
+  conforms: true
+  evidence: HIPAA listed on trust.stonly.com
+- id: pci-dss
+  conforms: true
+  evidence: PCI DSS listed on trust.stonly.com
+- id: gdpr
+  conforms: true
+  evidence: GDPR compliance listed on trust.stonly.com
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI declaring oauth2 securitySchemes
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public OpenAPI to inspect error media types
+notes: >-
+  Compliance posture is published on the Stonly trust center
+  (security/stonly-trust-center.yml). Cross-cutting API standards (oauth2,
+  rfc9457) cannot be confirmed because Stonly publishes no public OpenAPI.

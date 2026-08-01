@@ -1,8 +1,22 @@
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 10
+  pass: local-v1
 aid: stonly
 name: Stonly
-description: 'Stonly is a company surfaced as a portfolio company of accel, northzone and added to the
-  API Evangelist network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Stonly is a knowledge management and customer self-service platform that lets
+  organizations create interactive step-by-step guides, decision trees, and
+  structured knowledge content for both customer self-service and agent-assisted
+  support. It combines a knowledge base, an embeddable widget, AI chatbots and
+  agent-assist, and process automation, and integrates with customer service
+  tools such as Zendesk, Salesforce, ServiceNow, Freshdesk, Zapier, Segment and
+  HubSpot. For developers Stonly ships native mobile SDKs (iOS, Android, React
+  Native) plus a CLI to embed guides in apps, and a REST/HTTP API for managing
+  knowledge content and syncing user data. Companies including RemoteLock,
+  Devialet and Tonal use Stonly to deflect support tickets, speed up resolution,
+  and streamline agent onboarding.
 url: https://raw.githubusercontent.com/api-evangelist/stonly/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +25,33 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://stonly.com/favicon.ico
 tags:
 - Company
 - Cloud Saas
+- Knowledge Base
+- Knowledge Management
+- Customer Service
+- Customer Support
+- Self-Service
+- Help Center
+- AI Chatbot
+- Mobile SDK
+- Customer Experience
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +59,51 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/stonly-trust-center.yml
+- type: Compliance
+  url: security/stonly-trust-center.yml
+- type: Conformance
+  url: conformance/stonly-conformance.yml
+- type: DomainSecurity
+  url: security/stonly-domain-security.yml
 - type: Website
-  url: http://www.stonly.com
+  url: https://www.stonly.com
+- type: DeveloperPortal
+  url: https://stonly.com/kb/en/integrations-api-5468
+- type: Documentation
+  url: https://stonly.com/kb/
+- type: HelpCenter
+  url: https://help.stonly.com/
+- type: Support
+  url: https://help.stonly.com/
+- type: Blog
+  url: https://stonly.com/blog
+- type: Pricing
+  url: https://stonly.com/pricing
+- type: TermsOfService
+  url: https://stonly.com/terms
+- type: PrivacyPolicy
+  url: https://stonly.com/privacy
+- type: Login
+  url: https://app.stonly.com/login
+- type: SignUp
+  url: https://app.stonly.com/signup
+- type: GitHubOrganization
+  url: https://github.com/StonlyHQ
+- type: StatusPage
+  url: https://status.stonly.com/
+- type: Packages
+  url: packages/stonly-packages.yml
+- type: SDKs
+  url: packages/stonly-packages.yml
+- type: CLI
+  url: cli/stonly-cli.yml
+- type: Components
+  url: components/stonly-components.yml
+- type: ChangeLog
+  url: changelog/stonly-changelog.yml
+- type: Lifecycle
+  url: lifecycle/stonly-lifecycle.yml
+- type: LLMsTxt
+  url: llms/stonly-llms.txt

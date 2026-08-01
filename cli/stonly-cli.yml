@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://www.npmjs.com/package/stonly-cli ,
+  https://www.npmjs.com/package/stonly-sdk-cli — first-party CLI for installing
+  and wiring up the Stonly mobile SDKs.
+clis:
+- name: stonly-cli
+  registry: npm
+  package: stonly-cli
+  url: https://www.npmjs.com/package/stonly-cli
+  repository: https://github.com/StonlyHQ/stonly-cli
+  version: 0.1.1
+  license: MIT
+  install:
+  - npx stonly-cli
+  - npm install -g stonly-cli
+  purpose: CLI for the Stonly mobile SDKs — scaffolds and wires the SDK into a mobile project.
+- name: stonly-sdk-cli
+  registry: npm
+  package: stonly-sdk-cli
+  url: https://www.npmjs.com/package/stonly-sdk-cli
+  version: 0.9.4
+  license: MIT
+  install:
+  - npx stonly-sdk-cli
+  purpose: >-
+    Detects your mobile framework (iOS / Android / React Native), installs the
+    appropriate Stonly SDK, and wires up the project.
+notes: >-
+  Stonly's CLI surface is SDK-installation tooling for mobile apps, not a
+  management CLI over the REST API.

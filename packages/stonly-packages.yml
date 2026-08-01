@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://github.com/StonlyHQ , npmjs.com, cocoapods.org, jitpack.io — Stonly
+  first-party mobile SDKs for embedding interactive guides in native apps.
+packages:
+- language: swift
+  registry: cocoapods
+  name: Stonly
+  url: https://cocoapods.org/pods/Stonly
+  install: pod 'Stonly'
+  repository: https://github.com/StonlyHQ/stonly-ios-sdk
+  version: 1.0.31
+  official: true
+  notes: iOS SDK (Objective-C) for embedding Stonly guides and the widget in native iOS apps.
+- language: kotlin
+  registry: jitpack
+  name: com.github.StonlyHQ:stonly-android-sdk
+  url: https://jitpack.io/#StonlyHQ/stonly-android-sdk
+  install: implementation 'com.github.StonlyHQ:stonly-android-sdk:<version>'
+  repository: https://github.com/StonlyHQ/stonly-android-sdk
+  official: true
+  notes: Android SDK, distributed via JitPack, for embedding Stonly guides in native Android apps.
+- language: javascript
+  registry: npm
+  name: stonly-react-native
+  url: https://www.npmjs.com/package/stonly-react-native
+  install: npm install stonly-react-native
+  repository: https://github.com/StonlyHQ/stonly-reactnative-sdk
+  version: 1.0.8
+  official: true
+  notes: React Native SDK bridging the native iOS/Android Stonly SDKs.

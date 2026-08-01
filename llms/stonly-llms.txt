@@ -1,0 +1,30 @@
+# Stonly
+
+> Stonly is a knowledge management and customer self-service platform for creating interactive step-by-step guides, decision trees, and structured knowledge content. It powers customer self-service and agent-assisted support with a knowledge base, an embeddable widget, AI chatbots and agent assist, and process automation, and integrates with tools like Zendesk, Salesforce, ServiceNow, Freshdesk, Zapier, Segment and HubSpot. Developers embed guides in native apps via first-party iOS, Android and React Native SDKs (plus a CLI), and manage content through Stonly's HTTP API.
+
+## Product
+- [Stonly](https://www.stonly.com): Product overview and use cases.
+- [Pricing](https://stonly.com/pricing): Plans and pricing.
+- [Blog](https://stonly.com/blog): Product and customer-service content.
+
+## Developers
+- [Integrations & API](https://stonly.com/kb/en/integrations-api-5468): Developer / API section of the knowledge base.
+- [Knowledge Base / Docs](https://stonly.com/kb/): Product documentation.
+- [Help Center](https://help.stonly.com/): Support and how-to articles.
+- [GitHub (StonlyHQ)](https://github.com/StonlyHQ): Open-source SDKs and tooling.
+
+## SDKs & CLI
+- [iOS SDK](https://github.com/StonlyHQ/stonly-ios-sdk): CocoaPods `Stonly` (Objective-C).
+- [Android SDK](https://github.com/StonlyHQ/stonly-android-sdk): JitPack `com.github.StonlyHQ:stonly-android-sdk`.
+- [React Native SDK](https://www.npmjs.com/package/stonly-react-native): npm `stonly-react-native`.
+- [CLI](https://www.npmjs.com/package/stonly-cli): npm `stonly-cli` / `stonly-sdk-cli` — install and wire the mobile SDKs.
+
+## Operations & Trust
+- [Status](https://status.stonly.com/): Live service status.
+- [Trust Center](https://trust.stonly.com/): SOC 2, HIPAA, PCI DSS, GDPR.
+- [Terms of Service](https://stonly.com/terms)
+- [Privacy Policy](https://stonly.com/privacy)
+
+## Account
+- [Log in](https://app.stonly.com/login)
+- [Sign up](https://app.stonly.com/signup)

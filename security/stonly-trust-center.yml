@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.stonly.com/
+url: https://trust.stonly.com/
+certifications:
+- SOC 2
+- HIPAA
+- PCI DSS
+- GDPR
+evidence:
+- source: https://trust.stonly.com/
+  keywords:
+  - soc 2
+  - hipaa
+  - pci
+  - gdpr
+  - trust center
