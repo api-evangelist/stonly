@@ -1,0 +1,30 @@
+# Front Door AI Index — stonly — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: stonly
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.stonly.com
+  final_host: stonly.com
+  ownership: own
+  owner: stonly
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 14
+  host_score: 14
+  density: 15.62
+  words: 896
+  tiers:
+    agentic: 5
+    core: 9
+    model: 0
+  ambiguous: 25
+  top_terms:
+    agent: 24
+    AI: 8
+    AI agent: 4
+    LLMs: 1
+    automation: 1
+    conversational AI: 1
