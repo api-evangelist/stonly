@@ -55,9 +55,9 @@ tags:
 - Company
 - Cloud Saas
 - Knowledge Base
-- Knowledge-Management
+- Knowledge Management
 - Customer Service
-- Customer-Support
+- Customer Support
 - Self-Service
 - Help Center
 - AI Chatbot
@@ -75,6 +75,8 @@ tags_raw:
 - AI Chatbot
 - Mobile SDK
 - Customer Experience
+- Knowledge-Management
+- Customer-Support
 apis: []
 maintainers:
 - FN: Kin Lane
