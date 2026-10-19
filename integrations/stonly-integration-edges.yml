@@ -81,8 +81,44 @@ edges:
     detected: '2026-10-18'
   detected_by: sweep-official-sdks.py
   first_seen: '2026-10-18'
+- partner_name: Freshworks (own)
+  partner: freshworks
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.freshworks.com/apps/stonly_scripted_guides_for_agents
+  mirror_of: freshworks/integrations/freshworks-integration-edges.yml
+  apps:
+  - Stonly scripted guides for agents
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  publisher_verified:
+  - Verified by Freshworks
+- partner_name: Zendesk (own)
+  partner: zendesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.zendesk.com/marketplace/apps/support/210391/stonly/
+  mirror_of: zendesk/integrations/zendesk-integration-edges.yml
+  apps:
+  - Stonly
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: AI and Bots
 method: searched
 checked:
+- freshworks/integrations/freshworks-integration-edges.yml
 - https://api.nuget.org/v3
 - https://crates.io/api/v1
 - https://proxy.golang.org
@@ -92,4 +128,5 @@ checked:
 - https://rubygems.org/api/v1
 - https://www.twilio.com/docs/segment/connections/destinations/catalog/stonly
 - https://zapier.com/api/v4/apps/
+- zendesk/integrations/zendesk-integration-edges.yml
 source: https://www.twilio.com/docs/segment/connections/destinations/catalog/stonly
